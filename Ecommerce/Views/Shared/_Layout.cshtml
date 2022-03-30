@@ -1,0 +1,63 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ecommerce</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<body>
+    <header class="container">
+            <div class="left-nav">
+                <h3>CarVenture</h3>
+            </div>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cars</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <button>Sign Up</button>      
+            </nav>   
+        </header>
+    <div class="my-container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   
+        <div class="container">
+             <footer class="footer">
+            <div>
+                <h1>CarVenture</h1>
+                <p>Rides for the daily<br/> achievers</p>
+            </div>
+            <div class="footer_footer">
+                <p1>Company</p1>
+                <p>About Us<br/>Careers<br/>Support<br />Terms and Conditions</p>
+            </div>
+            <div class="footer_footer">
+                <p1>Features</p1>
+                <p>Vehicle Tracker<br/>iOS & Android Apps<br/>Business Trips<br/>Locations</p>
+            </div>
+            <div class="footer_footer">
+                <p1>Contact Us</p1>
+                <p>info@teamapp.com<br/>(302) 555-0107<br/>2972 Westheimer Rd. Santa<br/>Ana, Illinois 85486 </p>
+            </div>
+            <div class="footer_footer">
+                <p1>get deals and discount</p1>
+                <p>Subscribe to our<br/> newsletter</p>
+            </div>
+             </footer>
+        </div>
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

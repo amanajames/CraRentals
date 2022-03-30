@@ -1,0 +1,330 @@
+﻿/* Please see/**/
+
+documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 40px 0;
+}
+
+    header .left-nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+.nav_links {
+    list-style: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: #00008B;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    button:hover {
+        background-color: black;
+    }
+
+.my_image img {
+    width: 100%;
+}
+
+.background_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 35%;
+    text-align: start;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+    .banner-text p {
+        font-size: 15px;
+        margin-top: 15px;
+        width: 80%;
+    }
+
+.container {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.sub_container {
+    display: flex;
+    position: absolute;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    top: -55px;
+    left: 10%;
+    background-color: azure;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sub_container1 {
+    display: flex;
+    margin: 190px;
+    
+}
+
+    .sub_container1 img {
+        width: 140%;
+        margin-left: -135px;
+    }
+
+button {
+    padding: 9px 25px;
+    background-color: #00008B;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 20px 20px 0 20px;
+}
+
+.sub_container select {
+    color: #BBC8D4;
+    width: 150px;
+    height: 40px;
+    margin-right: 70px;
+}
+
+
+.sub_container2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.navigator {
+    margin-left: 900px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+    .navigator button {
+        border-radius: 42%;
+    }
+
+.sub_container3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.p1 {
+    text-align: center;
+    padding: 10px;
+}
+
+    .p1 h4 {
+        letter-spacing: 1px;
+    }
+
+.car {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.carimg {
+    width: 100%;
+}
+
+.sub_car {
+    margin-left: 70px;
+    margin-top: -25px;
+}
+.sub_car button{
+    margin-left: 0px;
+}
+
+.paragraph h6 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.paragraph p {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.sub_container5 {
+    text-align: center;
+    display: flex;
+}
+
+.easy_booking {
+    margin-top: 100px;
+}
+
+.sub_head h1 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sub_head p {
+    text-align: center;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.sub_testimonial {
+    display: flex;
+    padding: 10px;
+}
+
+    .sub_testimonial img {
+        padding: 10px;
+        display: flex;
+        max-width: 500px;
+        margin-left: 20px;
+    }
+
+    .sub_testimonial p {
+        margin-top: -450px;
+        margin-left: 70px;
+        color: azure;
+    }
+
+.sub_container7 h1 {
+    text-align: center;
+}
+
+.container7_image {
+    display: flex;
+    width: 100%;
+}
+
+    .container7_image img {
+        width: 370px;
+    }
+
+.sub_container7 p3{
+    font-weight: 600;
+    margin-top: 200px;
+}
+
+.tag button {
+    color: white;
+    border-radius: 30%;
+}
+
+.container7_image p {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sub_container8 {
+    background-color: royalblue;
+    height: 400px;
+    margin-top: 90px;
+}
+
+.container8 h1{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+
+.background .sub-container{
+    margin-top: 90px;
+}
+
+.sub-container {
+        display: flex;
+        border-radius: 50px;
+        justify-content: space-between;
+        align-items: center;
+        left: 10%;
+        background-color: white;
+        padding: 13px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 150px;
+}
+
+.background{
+  
+}
+.sub-container select {
+    width: 130px;
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.sub-container p{
+    margin-left:10px;
+}
+
+.footer{
+    background-color: lightgrey;
+    padding-right: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size:12px;
+    padding: 30px 0 30px 30px;
+}
+
+.container p1{
+    font-weight: 800;
+}
